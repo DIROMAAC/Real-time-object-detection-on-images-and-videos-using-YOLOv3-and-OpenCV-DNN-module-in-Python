@@ -94,50 +94,14 @@ A continuación se muestra un ejemplo de detección de múltiples objetos (perso
   <img src="yolo_detection_result.jpg" alt="Detección de Objetos en Shibuya" width="90%">
 </p>
 
----
+### 🎬 Resultado en Video (`yolo_detection_video.mp4`)
+A continuación se muestra la demostración de detección en tiempo real procesando la secuencia de video en Shibuya:
 
-## 🎬 ¿Cómo mostrar el Video de Resultados en el Repositorio?
-
-Dado que el video procesado `yolo_detection_video.mp4` tiene un tamaño considerable (~74 MB), subirlo directamente a la carpeta del repositorio con `git push` puede ralentizar el clonado del proyecto y acercarte al límite de almacenamiento de GitHub (100 MB por archivo).
-
-A continuación te presento las **tres mejores alternativas** para mostrar tu video de resultados en GitHub:
-
-### Opción 1: Subir el video a los Assets de GitHub (Recomendado ⭐)
-Es el método más limpio y profesional. GitHub permite hospedar videos de demostración en sus servidores CDN de forma gratuita y sin ocupar espacio en tu repositorio:
-
-1. Crea un **Issue** temporal o una **Pull Request** en tu repositorio de GitHub.
-2. Arrastra y suelta tu video procesado `yolo_detection_video.mp4` dentro de la caja de comentarios.
-3. Espera a que termine de cargar. GitHub generará automáticamente un enlace con este formato:
-   `https://github.com/user-attachments/assets/xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`
-4. Copia ese enlace generado e insértalo en este README usando la etiqueta HTML `<video>` para que se reproduzca directamente:
-
-```html
 <p align="center">
-  <video src="ENLACE_GENERADO_DE_GITHUB_ASSETS" width="100%" controls>
-    Tu navegador no soporta reproducción de video.
+  <video src="yolo_detection_video.mp4" width="90%" controls>
+    Tu navegador no soporta la reproducción de video.
   </video>
 </p>
-```
-
-### Opción 2: Insertarlo directamente en el repositorio (Mediante Git LFS o Git regular)
-Si decides mantener el archivo de video físicamente dentro de tu repositorio, puedes añadirlo a Git (asegúrate de quitarlo de `.gitignore` primero si lo deseas rastrear).
-Para mostrarlo en el README, GitHub renderizará el video automáticamente si usas la siguiente etiqueta:
-
-```html
-<p align="center">
-  <video src="yolo_detection_video.mp4" width="100%" controls>
-    Tu navegador no soporta reproducción de video.
-  </video>
-</p>
-```
-*Nota: Si pesa más de 50MB, se sugiere usar [Git Large File Storage (LFS)](https://git-lfs.github.com/).*
-
-### Opción 3: Crear un GIF Animado de demostración (Ideal para vistas rápidas)
-Puedes recortar una sección representativa de tu video (por ejemplo, unos 5-10 segundos) y convertirla a un archivo `.gif` optimizado de menos de 10 MB usando herramientas como EZGIF o Photoshop. Puedes guardarlo en la carpeta `img/` e insertarlo directamente como imagen:
-
-```markdown
-![Demostración en Video](img/demo_deteccion.gif)
-```
 
 ---
 
