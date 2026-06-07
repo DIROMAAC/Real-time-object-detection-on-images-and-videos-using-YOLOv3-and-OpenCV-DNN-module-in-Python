@@ -97,11 +97,7 @@ A continuación se muestra un ejemplo de detección de múltiples objetos (perso
 ### 🎬 Resultado en Video (`yolo_detection_video.mp4`)
 A continuación se muestra la demostración de detección en tiempo real procesando la secuencia de video en Shibuya:
 
-<p align="center">
-  <video src="https://github.com/user-attachments/assets/9e5f5701-7479-4d86-9a7e-3e581330f0e3" width="90%" controls>
-    Tu navegador no soporta la reproducción de video.
-  </video>
-</p>
+https://github.com/user-attachments/assets/9e5f5701-7479-4d86-9a7e-3e581330f0e3
 
 ---
 
