@@ -98,7 +98,7 @@ A continuación se muestra un ejemplo de detección de múltiples objetos (perso
 A continuación se muestra la demostración de detección en tiempo real procesando la secuencia de video en Shibuya:
 
 <p align="center">
-  <video src="https://github.com/DIROMAAC/Real-time-object-detection-on-images-and-videos-using-YOLOv3-and-OpenCV-DNN-module-in-Python/raw/main/yolo_detection_video.mp4" width="90%" controls>
+  <video src="https://github.com/user-attachments/assets/9e5f5701-7479-4d86-9a7e-3e581330f0e3" width="90%" controls>
     Tu navegador no soporta la reproducción de video.
   </video>
 </p>
